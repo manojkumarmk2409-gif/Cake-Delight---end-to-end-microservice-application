@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cart-service
+  namespace: cake-delight
+  labels:
+    app: cart-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cart-service
+  template:
+    metadata:
+      labels:
+        app: cart-service
+    spec:
+      containers:
+        - name: cart-service
+          image: cake-delight/cart-service:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3006
+          envFrom:
+            - configMapRef:
+                name: cart-service-config
+            - secretRef:
+                name: cart-service-secret
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 3006
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 3006
+            initialDelaySeconds: 20
+            periodSeconds: 20
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cart-service
+  namespace: cake-delight
+spec:
+  selector:
+    app: cart-service
+  ports:
+    - protocol: TCP
+      port: 3006
+      targetPort: 3006

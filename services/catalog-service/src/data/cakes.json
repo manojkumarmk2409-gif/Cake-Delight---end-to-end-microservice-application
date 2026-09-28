@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Vanilla Sponge Cake",
+    "description": "Light and fluffy vanilla sponge cake with simple frosting",
+    "category": "Classic",
+    "price": 150,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=400"
+  },
+  {
+    "name": "Simple Chocolate Cake",
+    "description": "Classic chocolate sponge with chocolate frosting",
+    "category": "Chocolate",
+    "price": 160,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+  },
+  {
+    "name": "Strawberry Cake",
+    "description": "Fresh strawberry with vanilla sponge and cream",
+    "category": "Fruit",
+    "price": 180,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400"
+  },
+  {
+    "name": "Butterscotch Cake",
+    "description": "Soft cake with butterscotch flavor and toffee bits",
+    "category": "Caramel",
+    "price": 170,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=400"
+  },
+  {
+    "name": "Carrot Cake",
+    "description": "Spiced carrot cake with cream cheese frosting",
+    "category": "Classic",
+    "price": 190,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=400"
+  },
+  {
+    "name": "Chocolate Chip Cake",
+    "description": "Vanilla cake loaded with chocolate chips",
+    "category": "Chocolate",
+    "price": 175,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+  },
+  {
+    "name": "Lemon Cake",
+    "description": "Tangy lemon flavored cake with lemon glaze",
+    "category": "Citrus",
+    "price": 165,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1519869325930-281384150729?w=400"
+  },
+  {
+    "name": "Mango Cake",
+    "description": "Fresh mango flavored sponge cake",
+    "category": "Fruit",
+    "price": 200,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=400"
+  },
+  {
+    "name": "Chocolate Fudge Cake",
+    "description": "Rich chocolate cake with fudge frosting",
+    "category": "Chocolate",
+    "price": 250,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+  },
+  {
+    "name": "Red Velvet Cake",
+    "description": "Classic red velvet with cream cheese frosting",
+    "category": "Classic",
+    "price": 280,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?w=400"
+  },
+  {
+    "name": "Black Forest Cake",
+    "description": "Chocolate cake with cherries and whipped cream",
+    "category": "Chocolate",
+    "price": 320,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+  },
+  {
+    "name": "Blueberry Cake",
+    "description": "Fresh blueberry sponge with berry compote",
+    "category": "Fruit",
+    "price": 240,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400"
+  },
+  {
+    "name": "Coffee Cake",
+    "description": "Coffee-flavored cake with coffee buttercream",
+    "category": "Classic",
+    "price": 230,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+  },
+  {
+    "name": "Coconut Cake",
+    "description": "Coconut sponge with coconut cream frosting",
+    "category": "Specialty",
+    "price": 260,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=400"
+  },
+  {
+    "name": "Pineapple Cake",
+    "description": "Tropical pineapple cake with pineapple filling",
+    "category": "Fruit",
+    "price": 220,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=400"
+  },
+  {
+    "name": "Choco-Hazelnut Cake",
+    "description": "Chocolate cake with roasted hazelnut filling",
+    "category": "Chocolate",
+    "price": 290,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+  },
+  {
+    "name": "Almond Cake",
+    "description": "Fine almond flour cake with almond frosting",
+    "category": "Classic",
+    "price": 300,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+  },
+  {
+    "name": "Plum Cake",
+    "description": "Traditional plum cake with dry fruits",
+    "category": "Specialty",
+    "price": 350,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=400"
+  },
+  {
+    "name": "Chocolate Mousse Cake",
+    "description": "Light chocolate mousse on chocolate sponge",
+    "category": "Chocolate",
+    "price": 380,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+  },
+  {
+    "name": "Strawberry Cheesecake",
+    "description": "Creamy cheesecake with fresh strawberry topping",
+    "category": "Cheesecake",
+    "price": 400,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1553434212-a97c5cc04e4e?w=400"
+  },
+  {
+    "name": "New York Cheesecake",
+    "description": "Classic dense cheesecake with graham cracker crust",
+    "category": "Cheesecake",
+    "price": 450,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1553434212-a97c5cc04e4e?w=400"
+  },
+  {
+    "name": "Mango Cheesecake",
+    "description": "Creamy cheesecake with fresh mango puree",
+    "category": "Cheesecake",
+    "price": 480,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1553434212-a97c5cc04e4e?w=400"
+  },
+  {
+    "name": "Blueberry Cheesecake",
+    "description": "Rich cheesecake with blueberry compote",
+    "category": "Cheesecake",
+    "price": 420,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1553434212-a97c5cc04e4e?w=400"
+  },
+  {
+    "name": "White Chocolate Cake",
+    "description": "Smooth white chocolate cake with white frosting",
+    "category": "Chocolate",
+    "price": 340,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+  },
+  {
+    "name": "Tiramisu Cake",
+    "description": "Italian tiramisu inspired cake with mascarpone",
+    "category": "Classic",
+    "price": 500,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+  },
+  {
+    "name": "Black Chocolate Delight",
+    "description": "Premium dark chocolate layer cake with ganache",
+    "category": "Chocolate",
+    "price": 550,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+  },
+  {
+    "name": "Walnut Cake",
+    "description": "Walnut-studded cake with walnut frosting",
+    "category": "Specialty",
+    "price": 360,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+  },
+  {
+    "name": "Pistachio Cake",
+    "description": "Pistachio flavored cake with pistachio cream",
+    "category": "Specialty",
+    "price": 520,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=400"
+  },
+  {
+    "name": "Caramel Cake",
+    "description": "Buttery caramel cake with caramel sauce layers",
+    "category": "Caramel",
+    "price": 440,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=400"
+  },
+  {
+    "name": "Premium Vanilla Bean Cake",
+    "description": "Madagascar vanilla bean cake with luxury frosting",
+    "category": "Classic",
+    "price": 600,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+  },
+  {
+    "name": "Belgian Chocolate Cake",
+    "description": "Luxury Belgian dark chocolate layer cake",
+    "category": "Chocolate",
+    "price": 750,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+  },
+  {
+    "name": "Deluxe Cheesecake Supreme",
+    "description": "Premium cheesecake with exotic fruit toppings",
+    "category": "Cheesecake",
+    "price": 1000,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1553434212-a97c5cc04e4e?w=400"
+  },
+  {
+    "name": "Royal Raspberry Torte",
+    "description": "Premium raspberry mousse cake with chocolate layers",
+    "category": "Fruit",
+    "price": 900,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400"
+  },
+  {
+    "name": "Luxury Multi-Layer Cake",
+    "description": "Premium cake with multiple layers and luxury ingredients",
+    "category": "Classic",
+    "price": 1200,
+    "availability": false,
+    "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+  },
+  {
+    "name": "Grand Chocolate Celebration",
+    "description": "Ultimate chocolate cake with premium Belgian chocolate",
+    "category": "Chocolate",
+    "price": 1500,
+    "availability": true,
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+  }
+]

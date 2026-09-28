@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: notification-service-config
+  namespace: cake-delight
+data:
+  PORT: "3004"
+  NODE_ENV: "production"
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: notification-service-secret
+  namespace: cake-delight
+type: Opaque
+stringData:
+  MYSQL_HOST: mysql
+  MYSQL_PORT: "3306"
+  MYSQL_USER: cake_user
+  MYSQL_PASSWORD: cake_pass
+  MYSQL_DATABASE: notification_db
+  RABBITMQ_URL: amqp://guest:guest@rabbitmq:5672

@@ -1,0 +1,26 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: catalog-service-seed
+  namespace: cake-delight
+  labels:
+    app: catalog-service
+spec:
+  backoffLimit: 6
+  template:
+    metadata:
+      labels:
+        app: catalog-service
+        job: catalog-service-seed
+    spec:
+      restartPolicy: OnFailure
+      containers:
+        - name: catalog-service-seed
+          image: cake-delight/catalog-service:latest
+          imagePullPolicy: IfNotPresent
+          command: ["node", "src/seed.js"]
+          envFrom:
+            - configMapRef:
+                name: catalog-service-config
+            - secretRef:
+                name: catalog-service-secret

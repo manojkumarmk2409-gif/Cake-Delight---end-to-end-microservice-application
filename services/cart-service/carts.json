@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "6a75d4f097201b756b95901b",
+    "userId": "6a75d4d49e8a1deb3066e0da",
+    "items": [],
+    "createdAt": "2026-08-07T12:52:00.407Z",
+    "updatedAt": "2026-08-07T12:52:00.407Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a769fd6ef995c9447f3df64",
+    "userId": "6a769fcb69b1713a94011e79",
+    "items": [],
+    "createdAt": "2026-08-08T03:17:42.673Z",
+    "updatedAt": "2026-08-08T03:52:54.881Z",
+    "__v": 2
+  },
+  {
+    "_id": "6a76a6acc5d81381c606cf91",
+    "userId": "123",
+    "items": [
+      {
+        "cakeId": "6a75d5c05dd8ebb459af065c",
+        "name": "Matcha Green Tea Mille Crepe",
+        "price": 55,
+        "quantity": 2
+      }
+    ],
+    "createdAt": "2026-08-08T03:46:52.690Z",
+    "updatedAt": "2026-08-08T03:51:52.812Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a781eb35cddda9d1fe4ee9b",
+    "userId": "6a781c6deb371508774a9ae0",
+    "items": [],
+    "createdAt": "2026-08-09T06:31:15.351Z",
+    "updatedAt": "2026-08-09T06:31:15.351Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,34 @@
+{
+    "name": "cake-delight",
+    "version": "1.0.0",
+    "description": "Cake Delight - Cloud-Native Microservices Application",
+    "private": true,
+    "workspaces": [
+        "api-gateway",
+        "services/user-service",
+        "services/cart-service",
+        "services/catalog-service",
+        "services/order-service",
+        "services/rating-service",
+        "services/notification-service",
+        "frontend"
+    ],
+    "scripts": {
+        "test:all": "npm run test --workspace=api-gateway && npm run test --workspace=services/user-service && npm run test --workspace=services/cart-service && npm run test --workspace=services/catalog-service && npm run test --workspace=services/order-service && npm run test --workspace=services/rating-service && npm run test --workspace=services/notification-service && npm run test --workspace=frontend",
+        "test:coverage:all": "npm run test:coverage --workspace=api-gateway && npm run test:coverage --workspace=services/user-service && npm run test:coverage --workspace=services/cart-service && npm run test:coverage --workspace=services/catalog-service && npm run test:coverage --workspace=services/order-service && npm run test:coverage --workspace=services/rating-service && npm run test:coverage --workspace=services/notification-service && npm run test:coverage --workspace=frontend",
+        "dev": "docker-compose up --build",
+        "seed": "node services/catalog-service/src/seed.js"
+    },
+    "keywords": [
+        "microservices",
+        "nodejs",
+        "react",
+        "docker",
+        "kubernetes"
+    ],
+    "author": "Cake Delight Team",
+    "license": "MIT",
+    "dependencies": {
+        "mysql2": "^3.11.3"
+    }
+}
